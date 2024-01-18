@@ -1,0 +1,156 @@
+body
+   font-family: 'Franklin Gothic Book', sans-serif
+   background: #ffff
+   font-weight: 400
+   font-size: 16px
+   line-height: 100%
+   color: #1e2736
+a
+   text-decoration: none
+   box-sizing: border-box
+   transition: 0.5s !important
+   &:hover 
+      color: $yel
+.container
+   padding: 0 15px
+   max-width: 1273px
+   margin: 0 auto
+   @media ( max-width: 1199px )
+      max-width: 960px
+   @media (max-width: 991px)
+      max-width: 720px
+   @media (max-width: 767px)
+      max-width: 540px
+.d-flex
+   display: flex
+.body-wrap
+   overflow: hidden
+   position: relative
+   display: flex
+   flex-direction: column
+   min-height: 100vh
+footer
+   margin-top: auto
+h1
+   color: #ffffff
+   font-size: 50px
+   font-weight: 500
+   font-style: normal
+   letter-spacing: normal
+   line-height: 60px
+   font-family: 'Franklin Gothic'
+   margin: 0
+h2 
+   margin: 0
+   font-family: 'Franklin Gothic'
+   font-size: 40px
+   font-weight: 500
+   font-style: normal
+   letter-spacing: normal
+   line-height: 45px
+ul 
+   margin: 0
+   padding: 0
+   list-style-type: none
+p
+   margin: 0
+.svg 
+   transition: 0.5s ease
+a
+   transition: color 0.5s ease
+   box-sizing: border-box
+li
+   a
+      transition: color 0.5s ease
+button
+   cursor: pointer
+   box-sizing: border-box
+textarea
+   transition: border 0.5s
+   box-sizing: border-box
+   &:focus
+      transition: border 0.5s
+      outline: none
+      border: 1px solid $yel !important
+input
+   transition: 0.5s
+   box-sizing: border-box
+   border: 1px solid #fff
+   &:disabled
+      pointer-events: none
+      opacity: 0.5
+   &:focus 
+      border: 1px solid $yel !important
+      transition: 0.5s
+   &:focus-visible
+      outline: initial
+path
+   transition: fill 0.5s, stroke 0.5s
+div 
+   box-sizing: border-box
+.icon 
+   transition: fill 0.5s, stroke 0.5s
+html * 
+   scrollbar-width: thin
+   scrollbar-color: blue $yel
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar 
+   height: 4px
+   width: 4px
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track 
+   background: #E7E7E7
+   border-radius: 3px
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb 
+   background-color: $yel
+   border-radius: 6px
+.nav-main 
+   scrollbar-width: thin
+   scrollbar-color: blue white
+.nav-main::-webkit-scrollbar,
+.nav-main::-webkit-scrollbar 
+   height: 4px
+   width: 4px
+.nav-main::-webkit-scrollbar-track,
+.nav-main::-webkit-scrollbar-track 
+   background: #E7E7E7
+   border-radius: 3px
+.nav-main::-webkit-scrollbar-thumb,
+.nav-main::-webkit-scrollbar-thumb 
+   background-color: white
+   border-radius: 6px
+
+.tabs__nav::-webkit-scrollbar,
+.tabs__nav::-webkit-scrollbar 
+   height: 2px
+   width: 2px
+.btn 
+   background: $yel
+   display: flex
+   align-items: center
+   justify-content: center
+   width: 163px
+   height: 41px
+   border-radius: 5px
+   transition: 0.5s
+   font-size: 16px
+   color: #333f47
+   border: 2px solid transparent
+   padding-bottom: 2px  
+   font-weight: 500
+   font-family: 'Franklin Gothic'
+   &:hover 
+      background: transparent 
+      border: 2px solid $yel
+      color: $yel
+   &_2
+      border: 1px solid #333f47
+      background: transparent 
+      color: #21202a
+      font-size: 16px
+      width: 270px
+      height: 51px
+      &:hover
+         border: 1px solid $yel
+         color: $yel
